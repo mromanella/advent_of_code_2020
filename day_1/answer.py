@@ -68,7 +68,7 @@ def run_test_2():
 
 if __name__ == '__main__':
     run_test_1()
-    nums = [int(line) for line in readlines(pathlib.Path(__file__).parent / 'part_1_input.txt')]
+    nums = [int(line) for line in readlines(pathlib.Path(__file__).parent / 'input.txt')]
     x, y = sum_to_2020_2(nums)
     print(x, y, mult_2(x, y))
     run_test_2()
